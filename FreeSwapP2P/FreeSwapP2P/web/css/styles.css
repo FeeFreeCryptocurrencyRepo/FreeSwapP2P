@@ -1,0 +1,226 @@
+﻿:root {
+    --bg: #0f1220;
+    --card: #171a2b;
+    --muted: #8a90a6;
+    --text: #f2f4ff;
+    --accent: #7c9cff;
+    --accent-2: #32d4a4;
+    --danger: #ff6b6b;
+    --border: #232744;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans";
+    background: radial-gradient(1200px 800px at 80% -20%, #1a2140 0%, var(--bg) 60%);
+    color: var(--text);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: min(960px, 95vw);
+    display: grid;
+    gap: 16px;
+}
+
+.card {
+    background: linear-gradient(180deg, #1a1f34, var(--card));
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+h1, h2 {
+    margin: 0 0 8px 0;
+    letter-spacing: .3px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #dbe0ff;
+}
+
+.muted {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.row {
+    display: grid;
+    gap: 12px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+@media (max-width: 720px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+label {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 6px;
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    background: #121528;
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 14px;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+    font-size: 15px;
+}
+
+    input:focus, select:focus, textarea:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(124,156,255,.15);
+    }
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    background: var(--accent);
+    color: #0b0e1a;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform .05s ease, filter .2s ease, background .2s ease;
+}
+
+    button:hover {
+        filter: brightness(1.05);
+    }
+
+    button:active {
+        transform: translateY(1px);
+    }
+
+    button.secondary {
+        background: transparent;
+        color: var(--text);
+        border-color: var(--border);
+    }
+
+    button.ghost {
+        background: #131630;
+        color: var(--text);
+        border: 1px solid var(--border);
+    }
+
+    button.success {
+        background: var(--accent-2);
+        color: #06251c;
+    }
+
+    button.danger {
+        background: var(--danger);
+        color: #2d0b0b;
+    }
+
+.error {
+    color: var(--danger);
+    min-height: 20px;
+}
+
+.success {
+    color: var(--accent-2);
+}
+
+.section {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--border);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Popup / modal */
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(8, 10, 20, .6);
+    display: grid;
+    place-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    width: min(520px, 92vw);
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+
+/* Progress bar */
+.progress {
+    height: 8px;
+    border-radius: 999px;
+    background: #0f1328;
+    border: 1px solid var(--border);
+    overflow: hidden;
+}
+
+    .progress > .bar {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, var(--accent), #9ad0ff);
+        transition: width .25s ease;
+    }
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #101533;
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    border-radius: 999px;
+    color: #dbe0ff;
+    font-size: 13px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.spacer {
+    flex: 1;
+}

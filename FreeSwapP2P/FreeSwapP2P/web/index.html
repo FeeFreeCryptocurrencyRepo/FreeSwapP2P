@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>FreeSwapP2P · SMR Wallet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/icons/favicon.ico">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- LOGIN CARD -->
+        <div id="loginCard" class="card">
+            <div class="topbar">
+                <h1>Log In or Create an Account</h1>
+                <span class="badge">SMR Wallet · LAN</span>
+            </div>
+            <div class="row">
+
+                <div class="grid-2">
+                    <div class="row">
+                        <label for="username">Username</label>
+                        <input id="username" type="text" placeholder="Enter Username" autocomplete="username" />
+                    </div>
+                    <div class="row">
+                        <label for="password">Password / PIN</label>
+                        <input id="password" type="password" placeholder="Enter Password/PIN" autocomplete="current-password" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="loginMethod">Action</label>
+                    <select id="loginMethod">
+                        <option>Log in with PIN</option>
+                        <option>Enter Private Key</option>
+                        <option>Create Account</option>  <!-- NEW -->
+                    </select>
+                </div>
+
+                <!-- Only for "Enter Private Key" -->
+                <div id="privateKeyRow" class="row hidden">
+                    <label for="privateKey">Private Key / Mnemonic</label>
+                    <textarea id="privateKey" rows="3" placeholder="Enter Private Key or mnemonic seed"></textarea>
+                </div>
+
+                <!-- Only for "Create Account" -->
+                <div id="confirmRow" class="row hidden">
+                    <label for="password2">Confirm Password</label>
+                    <input id="password2" type="password" placeholder="Confirm Password/PIN" />
+                </div>
+
+                <!-- Shows after successful Create -->
+                <div id="mnemonicRow" class="row hidden">
+                    <label for="createdMnemonic">Your New Mnemonic (save securely)</label>
+                    <textarea id="createdMnemonic" rows="3" readonly></textarea>
+                    <div class="buttons">
+                        <button id="copyMnemonicBtn">Copy</button>
+                    </div>
+                    <p class="muted">We filled this into the “Private Key” field for you. Switch to “Enter Private Key” and press Login.</p>
+                </div>
+
+                <div class="error" id="loginError"></div>
+
+                <div class="buttons">
+                    <button id="loginBtn">Login</button>
+                    <button class="secondary" id="clearBtn">Clear</button>
+                </div>
+
+                <div class="section">
+                    <div class="row">
+                        <div class="progress" aria-label="Loading">
+                            <div id="loginProgress" class="bar" style="width: 0%"></div>
+                        </div>
+                        <span class="muted">Progress appears during network calls.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WALLET CARD -->
+        <div id="walletCard" class="card hidden">
+            <div class="topbar">
+                <h2>Wallet</h2>
+                <div class="spacer"></div>
+                <button class="ghost" id="logoutBtn">Log out</button>
+            </div>
+
+            <div class="row">
+                <div id="balance" class="badge">Balance: 0 SMR</div>
+                <div class="buttons">
+                    <button id="refreshBtn">Refresh Balance</button>
+                    <button id="popupBtn" class="secondary">Open Popup</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="buttons">
+                    <button id="showSendBtn" class="ghost">Send</button>
+                    <button id="showReceiveBtn" class="ghost">Receive</button>
+                </div>
+            </div>
+
+            <!-- SEND VIEW -->
+            <div id="sendView" class="section hidden">
+                <h3>Send SMR</h3>
+                <div class="row">
+                    <label for="recipient">Recipient Address</label>
+                    <input id="recipient" type="text" placeholder="smr1..." />
+                </div>
+                <div class="row">
+                    <label for="amount">Amount (in SMR)</label>
+                    <input id="amount" type="text" placeholder="e.g. 1.25" />
+                </div>
+                <div class="error" id="sendError"></div>
+                <div class="buttons">
+                    <button id="sendBtn" class="success">Send Transaction</button>
+                </div>
+                <div class="section">
+                    <div class="progress">
+                        <div id="sendProgress" class="bar" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RECEIVE VIEW -->
+            <div id="receiveView" class="section hidden">
+                <h3>Receive SMR</h3>
+                <div class="row">
+                    <label for="myAddress">Your SMR Address</label>
+                    <input id="myAddress" type="text" readonly value="" />
+                </div>
+                <div class="buttons">
+                    <button id="copyBtn">Copy Address</button>
+                </div>
+                <div class="section">
+                    <div class="progress">
+                        <div id="receiveProgress" class="bar" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POPUP (hidden by default) -->
+    <div id="modalBackdrop" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-label="Popup">
+        <div class="modal">
+            <div class="topbar">
+                <h2>Popup Window</h2>
+                <button id="closePopupBtn" class="secondary">Close</button>
+            </div>
+            <p class="muted">This is a popup overlay.</p>
+        </div>
+    </div>
+</body>
+</html>

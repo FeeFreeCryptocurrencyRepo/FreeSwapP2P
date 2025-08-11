@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\IotaWallet.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|solutionrelative:FreeSwapP2P\\IotaWallet.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\FreeSwapP2P.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|solutionrelative:FreeSwapP2P\\FreeSwapP2P.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|solutionrelative:FreeSwapP2P\\web\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|solutionrelative:FreeSwapP2P\\web\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|solutionrelative:FreeSwapP2P\\web\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{436790D4-D32B-474E-BAAF-B53F253D7EF9}|FreeSwapP2P\\FreeSwapP2P.pyproj|solutionrelative:FreeSwapP2P\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IotaWallet.py",
+              "DocumentMoniker": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\IotaWallet.py",
+              "RelativeDocumentMoniker": "FreeSwapP2P\\IotaWallet.py",
+              "ToolTip": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\IotaWallet.py",
+              "RelativeToolTip": "FreeSwapP2P\\IotaWallet.py",
+              "ViewState": "AgIAAN8CAAAAAAAAAAAcwPkCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-08-10T23:32:42.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\index.html",
+              "RelativeDocumentMoniker": "FreeSwapP2P\\web\\index.html",
+              "ToolTip": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\index.html",
+              "RelativeToolTip": "FreeSwapP2P\\web\\index.html",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAwwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-10T23:28:04.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\README.md",
+              "RelativeDocumentMoniker": "FreeSwapP2P\\README.md",
+              "ToolTip": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\README.md",
+              "RelativeToolTip": "FreeSwapP2P\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-10T23:25:15.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\css\\styles.css",
+              "RelativeDocumentMoniker": "FreeSwapP2P\\web\\css\\styles.css",
+              "ToolTip": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\css\\styles.css",
+              "RelativeToolTip": "FreeSwapP2P\\web\\css\\styles.css",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-10T23:24:11.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\js\\app.js",
+              "RelativeDocumentMoniker": "FreeSwapP2P\\web\\js\\app.js",
+              "ToolTip": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\web\\js\\app.js",
+              "RelativeToolTip": "FreeSwapP2P\\web\\js\\app.js",
+              "ViewState": "AgIAABQBAAAAAAAAAAAkwEABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-10T23:23:53.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FreeSwapP2P.py",
+              "DocumentMoniker": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\FreeSwapP2P.py",
+              "RelativeDocumentMoniker": "FreeSwapP2P\\FreeSwapP2P.py",
+              "ToolTip": "C:\\Users\\drewa\\source\\repos\\FreeSwapP2P\\FreeSwapP2P\\FreeSwapP2P.py",
+              "RelativeToolTip": "FreeSwapP2P\\FreeSwapP2P.py",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAcwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-08-10T23:15:05.116Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
