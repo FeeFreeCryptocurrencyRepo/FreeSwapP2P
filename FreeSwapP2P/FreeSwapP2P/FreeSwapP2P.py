@@ -1,4 +1,4 @@
-﻿# C:\Users\drewa\source\repos\FreeSwapP2P\FreeSwapP2P\FreeSwapP2P.py
+﻿# C:\Users\<User>\source\repos\FreeSwapP2P\FreeSwapP2P\FreeSwapP2P.py
 
 from fastapi import FastAPI, HTTPException, Depends, Header
 from fastapi.middleware.cors import CORSMiddleware
